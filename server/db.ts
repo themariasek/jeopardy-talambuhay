@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'W',
+        answer: 'Vermont',
     },
     {
         points: 200,
@@ -32,32 +32,32 @@ const pastQuestions: Question[] = sortQuestions([
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 200,
-            question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
-        },
-        {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'What is my favorite food?',
+            imgSrc: 'https://www.seriouseats.com/thmb/9xlGr_x7-SXqYSWWnov68rr1kVM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2017__02__20170217-reverse-sear-steak-02-d86b7f4676d240c196acf6903523c99f.jpg',
+            answer: 'Steak',
+        },
+        {
+            points: 200,
+            question:
+                'What is my favorite sport to watch? NOTE: Do not use numbers in your answer.',
+            imgSrc: 'https://spcdn.shortpixel.ai/spio/ret_img,q_cdnize,to_auto,s_webp:avif/f1chronicle.com/wp-content/uploads/2024/01/SI202412010400-1920x1080.jpg',
+            answer: 'Formula One',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 
+                'What US state do I ski in every year?',
+            imgSrc: '/vermontflag.png',
+            answer: 'Vermont',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                'What is my favorite TV show?',
+            imgSrc: "https://chrysbuckley.com/wp-content/uploads/2013/04/screen-shot-2013-06-24-at-5-13-25-pm.png",
+            answer: 'Breaking Bad',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -74,15 +74,15 @@ const futureQuestions: Question[] = sortQuestions([
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Maria\'s Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Maria\'s Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Maria\'s Future',
         questions: futureQuestions
     }
 ];
